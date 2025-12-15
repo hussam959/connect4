@@ -1,0 +1,24 @@
+ROWS = 6
+COLS = 7
+PLAYER1_PIECE = 1
+PLAYER2_PIECE = 2
+
+# UI Constants
+SQUARESIZE = 80
+RADIUS = SQUARESIZE // 2 - 5
+
+# Colors
+BLUE = (0, 0, 255)
+BLACK = (0, 0, 0)
+RED = (255, 0, 0)
+YELLOW = (255, 255, 0)
+GRAY = (50, 50, 50)
+LIGHT_GRAY = (200, 200, 200)
+WHITE = (255, 255, 255)
+GREEN = (0, 255, 0)
+DARK_GREEN = (0, 180, 0)
+DARK_RED = (180, 0, 0)
+
+# Game Settings
+AI_DEPTH = 5  # 🔥 صعب
+AI_DELAY = 400
